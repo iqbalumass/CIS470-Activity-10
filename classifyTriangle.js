@@ -18,5 +18,5 @@ function classifyTriangle(a, b, c) {
         return "Scalene";
     }
 }
-
+//deploy
 module.exports = {classifyTriangle} ;
