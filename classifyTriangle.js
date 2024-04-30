@@ -18,5 +18,6 @@ function classifyTriangle(a, b, c) {
         return "Scalene";
     }
 }
+//before deploying 
 
 module.exports = {classifyTriangle} ;
