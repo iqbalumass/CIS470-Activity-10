@@ -21,5 +21,5 @@ app.post(apiEndpoint, (req, res) => {
     const result = classifyTriangle(side1,side2,side3);
     res.json({ result });
 })
-
+//deploy
 module.exports.handler = serverless(app);
